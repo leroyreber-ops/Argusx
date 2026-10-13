@@ -1,0 +1,6 @@
+{
+  "name": "Argus IT Services",
+  "description": "Professional B2B technology lifecycle and IT services partner providing procurement, staging, managed services, depot repair, field support, and secure asset disposition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

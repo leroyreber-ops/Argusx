@@ -1,0 +1,46 @@
+# Netlify 301 Redirects from Legacy WordPress URLs to New 11 Canonical Pages
+
+# Legacy Source & Hardware URLs
+/source/                                      /it-procurement-deployment/       301
+/services/source/                             /it-procurement-deployment/       301
+/services/source/spec-source-equipment/       /it-procurement-deployment/       301
+/services/source/device-as-a-service/         /it-procurement-deployment/       301
+/services/source/hardware-software-bundling/  /it-procurement-deployment/       301
+/computer-mobile-services/                    /it-procurement-deployment/       301
+
+# Legacy MSP & Managed Infrastructure URLs
+/msp/                                         /managed-it-services/             301
+/services/msp/                                /managed-it-services/             301
+/services/msp/monitor-and-support/            /managed-it-services/             301
+/services/msp/improve-secure-and-maintain/    /managed-it-services/             301
+/services/msp/manage-and-report/              /managed-it-services/             301
+/services/msp/msp-engagement/                 /managed-it-services/             301
+/network-data-center-services/                /managed-it-services/             301
+
+# Legacy Support, Complete Care & Depot URLs
+/complete-care/                               /it-support-services/             301
+/support-staffing/                            /it-support-services/             301
+/services/support-staffing/                   /it-support-services/             301
+/services/support-staffing/depot-services/    /it-support-services/             301
+/services/support-staffing/field-services/    /it-support-services/             301
+
+# Legacy Retirement & ITAD URLs
+/retire/                                      /it-asset-disposition/            301
+/services/retire/                             /it-asset-disposition/            301
+/services/retire/secure-data-destruction/     /it-asset-disposition/            301
+/services/retire/asset-recycling-gain-share/  /it-asset-disposition/            301
+/services/retire/asset-repurposing-and-community/ /it-asset-disposition/        301
+/government-secure-asset-destruction/         /it-asset-disposition/            301
+/government-secure-asset-destruction-recycle/ /it-asset-disposition/            301
+
+# Legacy Relocations & Projects URLs
+/services/support-staffing/data-center-relocation-services/ /it-staffing-project-services/ 301
+/project-field-services/                      /it-staffing-project-services/    301
+/bank-acquistion-move/                        /it-staffing-project-services/    301
+
+# Legacy Company URLs
+/about-us/                                    /about/                           301
+/vision/                                      /about/                           301
+
+# Netlify SPA Single Page Fallback
+/*                                            /index.html                       200
