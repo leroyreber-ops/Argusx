@@ -45,7 +45,7 @@ export const AboutPage: React.FC = () => {
         kicker="28+ Years of Engineering Craftsmanship Since 1997"
         title="Engineered Precision in Hardware Lifecycle Management"
         subtitle="Formed in 1997 as Argus Connection in Fort Worth, Texas, Argus IT Services brings decades of hands-on electronics engineering, depot repair mastery, and logistics expertise to modern business technology."
-        backgroundImage="/src/assets/images/argus_executive_leadership_boardroom_1791867969752.jpg"
+        backgroundImage="/assets/images/argus_executive_leadership_boardroom_1791867969752.jpg"
         imageAlt="Argus IT Services executive leadership team and systems engineers strategizing enterprise technology lifecycle solutions"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Contact Our Team"
@@ -103,7 +103,7 @@ export const AboutPage: React.FC = () => {
             <div className="lg:col-span-5 space-y-6">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/fort_worth_headquarters_facility_1791867969696.jpg"
+                  src="/assets/images/fort_worth_headquarters_facility_1791867969696.jpg"
                   alt="Argus IT logistics and commercial hardware staging warehouse facility in Fort Worth, Texas"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -153,7 +153,7 @@ export const AboutPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/it_consultation_strategy_meeting_1791867985635.jpg"
+                  src="/assets/images/it_consultation_strategy_meeting_1791867985635.jpg"
                   alt="Argus systems engineering leadership reviewing corporate fleet infrastructure requirements with client"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

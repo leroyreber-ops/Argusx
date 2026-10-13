@@ -66,7 +66,7 @@ export const CareersPage: React.FC = () => {
         kicker="Careers at Argus IT Services in Fort Worth, TX"
         title="Build a Career in Practical Technology Operations & Hardware Engineering"
         subtitle="Join an established, engineering-led organization dedicated to craftsmanship in hardware lifecycle management, depot operations, and nationwide client service since 1997."
-        backgroundImage="/src/assets/images/argus_team_culture_workspace_1791868101884.jpg"
+        backgroundImage="/assets/images/argus_team_culture_workspace_1791868101884.jpg"
         imageAlt="Argus IT Services technicians and systems engineers collaborating around a workshop table in our Fort Worth depot facility"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Submit Career Inquiry"
@@ -101,7 +101,7 @@ export const CareersPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/technician_skills_training_depot_1791868102712.jpg"
+                  src="/assets/images/technician_skills_training_depot_1791868102712.jpg"
                   alt="Senior hardware engineer mentoring a junior bench technician on laptop motherboard diagnostic tools and multimeter testing"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -173,7 +173,7 @@ export const CareersPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/argus_fort_worth_office_amenities_1791868102825.jpg"
+                  src="/assets/images/argus_fort_worth_office_amenities_1791868102825.jpg"
                   alt="Modern collaborative employee lounge and tech library in the Argus Fort Worth Texas facility"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

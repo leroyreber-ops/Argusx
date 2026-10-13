@@ -74,7 +74,7 @@ export const StaffingProjectsPage: React.FC = () => {
         kicker="Project Execution & Technical Staff Augmentation"
         title="Specialized Engineering for Complex Hardware Moves and Rollouts"
         subtitle="On-demand technical project teams for bank acquisitions, corporate headquarters relocations, multi-store point-of-sale cutovers, and specialized engineering augmentation."
-        backgroundImage="/src/assets/images/field_technician_collaboration_1791866053603.jpg"
+        backgroundImage="/assets/images/field_technician_collaboration_1791866053603.jpg"
         imageAlt="Argus technical project team planning an infrastructure relocation schedule"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Discuss Project Scope"
@@ -109,7 +109,7 @@ export const StaffingProjectsPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/branch_conversion_cutover_project_1791868075194.jpg"
+                  src="/assets/images/branch_conversion_cutover_project_1791868075194.jpg"
                   alt="Commercial bank branch IT modernization cutover during evening with IT specialists installing new cash recycler terminals and cabling"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -159,7 +159,7 @@ export const StaffingProjectsPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/it_staffing_engineering_team_1791868074700.jpg"
+                  src="/assets/images/it_staffing_engineering_team_1791868074700.jpg"
                   alt="Group of diverse professional IT technicians and systems engineers in uniform standing together confidently in a technology staging facility"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

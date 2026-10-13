@@ -54,7 +54,7 @@ export const SmallBusinessPage: React.FC = () => {
         kicker="Right-Sized Technology Partnerships for Growing Businesses"
         title="Enterprise-Grade IT Discipline Designed for Growing Businesses"
         subtitle="Eliminate technology friction with transparent hardware bundling, proactive systems management, and fast depot repair—giving your team corporate-level reliability without corporate complexity."
-        backgroundImage="/src/assets/images/smb_modern_office_technology_1791867986529.jpg"
+        backgroundImage="/assets/images/smb_modern_office_technology_1791867986529.jpg"
         imageAlt="Modern growing business office with collaborative workstations and reliable commercial IT infrastructure"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Discuss SMB Hardware Needs"
@@ -89,7 +89,7 @@ export const SmallBusinessPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/smb_workstation_it_support_1791868006861.jpg"
+                  src="/assets/images/smb_workstation_it_support_1791868006861.jpg"
                   alt="Argus IT support specialist assisting an office professional at a dual-monitor workstation with hands-on technical guidance"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -157,7 +157,7 @@ export const SmallBusinessPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/smb_network_firewall_setup_1791868007930.jpg"
+                  src="/assets/images/smb_network_firewall_setup_1791868007930.jpg"
                   alt="Compact wall-mounted commercial network rack inside a small business server closet with managed Gigabit switch and Fortinet firewall router"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

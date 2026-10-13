@@ -56,7 +56,7 @@ export const ManagedServicesPage: React.FC = () => {
         kicker="24/7 Managed Systems & Infrastructure Support"
         title="Keep Business-Critical Infrastructure Resilient and Up-to-Date"
         subtitle="Proactive 24/7 monitoring, automated patch compliance, and disciplined systems administration that prevent downtime before it interrupts your operations."
-        backgroundImage="/src/assets/images/network_monitoring_noc_1791867623829.jpg"
+        backgroundImage="/assets/images/network_monitoring_noc_1791867623829.jpg"
         imageAlt="Argus Network Operations Center technician monitoring infrastructure telemetry and server uptime"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Request Managed IT Consultation"
@@ -91,7 +91,7 @@ export const ManagedServicesPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/systems_engineer_network_telemetry_1791868027197.jpg"
+                  src="/assets/images/systems_engineer_network_telemetry_1791868027197.jpg"
                   alt="Senior systems engineer monitoring network latency graphs, switch traffic, and cybersecurity alerts across triple monitors in a control room"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -179,7 +179,7 @@ export const ManagedServicesPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/datacenter_server_blade_maintenance_1791868027158.jpg"
+                  src="/assets/images/datacenter_server_blade_maintenance_1791868027158.jpg"
                   alt="Enterprise datacenter engineer sliding a high performance server blade into a high-density chassis with clean orange and aqua fiber optic cables"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

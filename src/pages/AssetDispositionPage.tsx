@@ -56,7 +56,7 @@ export const AssetDispositionPage: React.FC = () => {
         kicker="Certified ITAD & Verifiable Media Sanitization"
         title="Certified IT Asset Disposition and Verifiable Data Destruction"
         subtitle="Protect sensitive company records and meet regulatory compliance with serialized drive wiping, physical hardware destruction, and eco-conscious recycling with gain-share recovery."
-        backgroundImage="/src/assets/images/secure_asset_disposition_1791866053999.jpg"
+        backgroundImage="/assets/images/secure_asset_disposition_1791866053999.jpg"
         imageAlt="Argus asset technician scanning hardware barcodes for serialized audit logging and certified data wiping"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Schedule ITAD Consultation"
@@ -91,7 +91,7 @@ export const AssetDispositionPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/hard_drive_shredding_destruction_1791868051241.jpg"
+                  src="/assets/images/hard_drive_shredding_destruction_1791868051241.jpg"
                   alt="Industrial high-security e-waste shredder machine destroying decommissioned enterprise hard drives and solid-state storage"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -174,7 +174,7 @@ export const AssetDispositionPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/itad_e_waste_pallet_audit_1791868073744.jpg"
+                  src="/assets/images/itad_e_waste_pallet_audit_1791868073744.jpg"
                   alt="Organized electronics recycling warehouse with shrink-wrapped pallets of decommissioned IT hardware, barcode audit scanner, and checklist"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

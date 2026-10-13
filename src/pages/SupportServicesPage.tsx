@@ -56,7 +56,7 @@ export const SupportServicesPage: React.FC = () => {
         kicker="Complete Care Depot & Field Engineering"
         title="Rapid Hardware Repair Depot and On-Site Field Engineering"
         subtitle="Minimize downtime with certified component repair at our Fort Worth facility, same-day advance hardware exchanges, and skilled on-site field engineers ready to deploy."
-        backgroundImage="/src/assets/images/laptop_repair_microsolder_1791867624093.jpg"
+        backgroundImage="/assets/images/laptop_repair_microsolder_1791867624093.jpg"
         imageAlt="Electronics technician performing diagnostic testing on a laptop motherboard with multimeter probe at the Fort Worth depot"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Request Depot or Field Support"
@@ -91,7 +91,7 @@ export const SupportServicesPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/advance_exchange_buffer_inventory_1791868050500.jpg"
+                  src="/assets/images/advance_exchange_buffer_inventory_1791868050500.jpg"
                   alt="Organized warehouse spare parts buffer shelving with barcoded OEM laptop displays, motherboards, power supplies, and storage drives"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -174,7 +174,7 @@ export const SupportServicesPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/field_service_technician_dispatch_1791868049625.jpg"
+                  src="/assets/images/field_service_technician_dispatch_1791868049625.jpg"
                   alt="Field service IT technician carrying a ruggedized laptop diagnostic case entering a corporate client office building"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

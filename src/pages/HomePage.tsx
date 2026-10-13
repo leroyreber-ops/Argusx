@@ -64,7 +64,7 @@ export const HomePage: React.FC = () => {
         kicker="28 Years of Fast, Flexible, and Focused IT Infrastructure Solutions"
         title="Full Lifecycle IT Infrastructure Solutions for Growing & Enterprise Fleets"
         subtitle="Our passion is to provide technology solutions so our clients can deliver results. Argus IT Services manages hardware from procurement and custom depot staging through 24/7 maintenance, rapid break-fix repair, and certified NIST 800-88 retirement."
-        backgroundImage="/src/assets/images/hero_it_depot_imaging_1791866053170.jpg"
+        backgroundImage="/assets/images/hero_it_depot_imaging_1791866053170.jpg"
         imageAlt="Argus IT Services technician staging and configuring business laptops inside the Fort Worth depot facility"
         primaryCtaText="Talk to an Expert"
         primaryCtaLink="/contact/"
@@ -383,7 +383,7 @@ export const HomePage: React.FC = () => {
                 <div>
                   <div className="h-48 bg-slate-800 relative overflow-hidden">
                     <img
-                      src="/src/assets/images/enterprise_server_datacenter_1791866053375.jpg"
+                      src="/assets/images/enterprise_server_datacenter_1791866053375.jpg"
                       alt="Managed IT Services Case Study"
                       className="w-full h-full object-cover"
                     />
@@ -414,7 +414,7 @@ export const HomePage: React.FC = () => {
                 <div>
                   <div className="h-48 bg-slate-800 relative overflow-hidden">
                     <img
-                      src="/src/assets/images/retail_pos_field_deployment_1791867969416.jpg"
+                      src="/assets/images/retail_pos_field_deployment_1791867969416.jpg"
                       alt="Store Remodels and Retail Point of Sale Deployment Case Study"
                       className="w-full h-full object-cover"
                     />
@@ -445,7 +445,7 @@ export const HomePage: React.FC = () => {
                 <div>
                   <div className="h-48 bg-slate-800 relative overflow-hidden">
                     <img
-                      src="/src/assets/images/field_technician_collaboration_1791866053603.jpg"
+                      src="/assets/images/field_technician_collaboration_1791866053603.jpg"
                       alt="Novar EMS Installation Project Case Study"
                       className="w-full h-full object-cover"
                     />

@@ -16,7 +16,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   canonical,
   breadcrumbs,
   serviceType,
-  ogImage = '/src/assets/images/hero_it_depot_imaging_1791866053170.jpg',
+  ogImage = '/assets/images/hero_it_depot_imaging_1791866053170.jpg',
 }) => {
   useEffect(() => {
     // 1. Update Title
@@ -33,15 +33,19 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       el.setAttribute('content', contentVal);
     };
 
+    const resolvedOgImage = ogImage.startsWith('http')
+      ? ogImage
+      : `${typeof window !== 'undefined' ? window.location.origin : 'https://www.argusx.com'}${ogImage.startsWith('/') ? '' : '/'}${ogImage}`;
+
     setMeta('name', 'description', description);
     setMeta('property', 'og:title', title);
     setMeta('property', 'og:description', description);
     setMeta('property', 'og:url', canonical);
-    setMeta('property', 'og:image', ogImage);
+    setMeta('property', 'og:image', resolvedOgImage);
     setMeta('property', 'og:site_name', COMPANY.name);
     setMeta('name', 'twitter:title', title);
     setMeta('name', 'twitter:description', description);
-    setMeta('name', 'twitter:image', ogImage);
+    setMeta('name', 'twitter:image', resolvedOgImage);
 
     // 3. Update canonical link
     let canonicalLink = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;

@@ -95,7 +95,7 @@ export const ContactPage: React.FC = () => {
         kicker="Direct Engineer Consultation & Custom Quotes"
         title="Discuss Your Hardware Lifecycle and Support Needs"
         subtitle="Connect with our Fort Worth engineering team for hardware procurement, depot repair programs, managed services, or certified asset disposition quotes."
-        backgroundImage="/src/assets/images/argus_fort_worth_facility_exterior_1791868131290.jpg"
+        backgroundImage="/assets/images/argus_fort_worth_facility_exterior_1791868131290.jpg"
         imageAlt="Modern commercial corporate facility and logistics depot of Argus IT Services in Fort Worth, Texas during sunset"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Start Consultation"
@@ -189,7 +189,7 @@ export const ContactPage: React.FC = () => {
               {/* Image 2: Dedicated Client Support Desk & Operations Dispatch */}
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-900 group">
                 <img
-                  src="/src/assets/images/argus_dispatch_customer_support_1791868132055.jpg"
+                  src="/assets/images/argus_dispatch_customer_support_1791868132055.jpg"
                   alt="Argus IT Services customer operations coordinator managing technical dispatches and client requests"
                   className="w-full h-52 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -462,7 +462,7 @@ export const ContactPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-900 group">
                 <img
-                  src="/src/assets/images/logistics_freight_dispatch_hub_1791868130650.jpg"
+                  src="/assets/images/logistics_freight_dispatch_hub_1791868130650.jpg"
                   alt="Modern commercial logistics freight bay at Argus IT Services with express delivery trucks at dock bays and palletized cargo"
                   className="w-full h-52 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

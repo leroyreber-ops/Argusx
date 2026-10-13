@@ -84,7 +84,7 @@ export const ProcurementPage: React.FC = () => {
         kicker="Source & Deploy Lifecycle Operations"
         title="Zero-Touch Hardware Procurement, Staging & Rollout"
         subtitle="From OEM specification and bulk hardware acquisition to custom image burning, peripheral kitting, and desk-side delivery—every computer arrives fully primed for your workforce."
-        backgroundImage="/src/assets/images/hardware_procurement_warehouse_1791867622381.jpg"
+        backgroundImage="/assets/images/hardware_procurement_warehouse_1791867622381.jpg"
         imageAlt="Argus IT logistics and commercial hardware staging warehouse in Fort Worth, Texas"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Request Procurement Quote"
@@ -119,7 +119,7 @@ export const ProcurementPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/bulk_laptop_imaging_depot_1791868007743.jpg"
+                  src="/assets/images/bulk_laptop_imaging_depot_1791868007743.jpg"
                   alt="High throughput IT depot staging bench with forty enterprise laptops connected to network cables flashing customized corporate Windows 11 images"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -205,7 +205,7 @@ export const ProcurementPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/zero_touch_kitting_packaging_1791868026932.jpg"
+                  src="/assets/images/zero_touch_kitting_packaging_1791868026932.jpg"
                   alt="Argus IT logistics packing station with custom shipping cartons, new laptops, docks, and welcome guides ready for courier dispatch"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"

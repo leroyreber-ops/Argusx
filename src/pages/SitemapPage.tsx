@@ -35,7 +35,7 @@ export const SitemapPage: React.FC = () => {
         kicker="Website Architecture & Directory"
         title="Complete Site Directory & Service Architecture"
         subtitle="Explore all 11 core pages, enterprise solutions, technical disciplines, and service pathways across the Argus IT Services digital platform."
-        backgroundImage="/src/assets/images/footer_tech_circuit_bg_1791867621429.jpg"
+        backgroundImage="/assets/images/footer_tech_circuit_bg_1791867621429.jpg"
         imageAlt="Argus IT Services technology architecture and sitemap navigation network"
         breadcrumbs={[
           { name: 'Home', path: '/' },

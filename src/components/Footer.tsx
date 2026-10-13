@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
       {/* Visible Background Hero Image for Footer */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
-          src="/src/assets/images/argus_footer_hero_tech_1791870038434.jpg"
+          src="/assets/images/argus_footer_hero_tech_1791870038434.jpg"
           alt="Argus Enterprise Technology Infrastructure & Datacenter Network"
           className="w-full h-full object-cover object-center opacity-85 brightness-100 contrast-105"
           loading="lazy"

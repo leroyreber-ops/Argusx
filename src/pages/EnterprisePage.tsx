@@ -85,7 +85,7 @@ export const EnterprisePage: React.FC = () => {
         kicker="Enterprise Fleet Lifecycle Management"
         title="Scale Your Enterprise Technology Fleet Without Expanding IT Overhead"
         subtitle="High-volume staging, zero-touch employee deployments, SLA-backed advance hardware exchange, and audited asset retirement built for complex multi-location enterprises across North America."
-        backgroundImage="/src/assets/images/enterprise_server_datacenter_1791866053375.jpg"
+        backgroundImage="/assets/images/enterprise_server_datacenter_1791866053375.jpg"
         imageAlt="Enterprise data center server corridor managed by Argus infrastructure engineers"
         breadcrumbs={page.breadcrumbs}
         primaryCtaText="Schedule Enterprise Briefing"
@@ -120,7 +120,7 @@ export const EnterprisePage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/enterprise_staging_barcode_tagging_1791867986443.jpg"
+                  src="/assets/images/enterprise_staging_barcode_tagging_1791867986443.jpg"
                   alt="Argus staging technician using laser barcode scanner to catalog asset tags on a line of enterprise laptops"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
@@ -188,7 +188,7 @@ export const EnterprisePage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/server_rack_cabling_1791867624294.jpg"
+                  src="/assets/images/server_rack_cabling_1791867624294.jpg"
                   alt="Meticulously organized structured patch cabling and labeled network switch ports in an enterprise rack"
                   className="w-full h-64 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   loading="lazy"
