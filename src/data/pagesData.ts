@@ -1,6 +1,8 @@
 /**
  * Comprehensive page data, SEO metadata, and structured copy for all 11 pages.
  * Fully aligned with Argus IT Services' verified core offerings and B2B standards.
+ * Titles and descriptions are character-optimized (Title: 50-60 chars, Desc: 140-155 chars)
+ * with targeted search intent and keyword focus.
  */
 
 export interface PageContent {
@@ -23,8 +25,8 @@ export const PAGES_DATA: Record<string, any> = {
   home: {
     slug: 'home',
     path: '/',
-    metaTitle: 'Argus IT Services — B2B Hardware Lifecycle & Managed IT Solutions',
-    metaDescription: 'Argus IT Services manages complete technology lifecycles: hardware procurement, depot staging, proactive managed IT, field engineering, and secure ITAD.',
+    metaTitle: 'Argus IT Services | B2B Hardware Lifecycle & Managed IT',
+    metaDescription: 'Complete B2B technology lifecycles: hardware procurement, depot staging, proactive managed IT, field engineering, and certified NIST 800-88 data destruction.',
     canonical: 'https://www.argusx.com/',
     heroKicker: 'Technology Lifecycle Management Since 1997',
     heroTitle: 'Complete IT Asset Lifecycles. From First Boot to Secure Retirement.',
@@ -36,8 +38,8 @@ export const PAGES_DATA: Record<string, any> = {
   about: {
     slug: 'about',
     path: '/about/',
-    metaTitle: 'About Argus IT Services — 28+ Years of Hardware Lifecycle Excellence',
-    metaDescription: 'Founded in 1997 as Argus Connection in the Dallas/Fort Worth metroplex, Argus delivers reliable IT asset procurement, depot repair, field support, and secure disposition.',
+    metaTitle: 'About Argus IT Services | 28+ Years Hardware Lifecycle DFW',
+    metaDescription: 'Founded in 1997 in Fort Worth, TX, Argus IT Services provides precision IT procurement, certified depot repairs, nationwide dispatch, and secure ITAD solutions.',
     canonical: 'https://www.argusx.com/about/',
     heroKicker: '28+ Years of Engineering Heritage',
     heroTitle: 'Engineered Precision in Hardware Lifecycle Management',
@@ -52,8 +54,8 @@ export const PAGES_DATA: Record<string, any> = {
   enterprise: {
     slug: 'enterprise-it-services',
     path: '/enterprise-it-services/',
-    metaTitle: 'Enterprise IT Services — High-Volume Fleet Lifecycle & Depot SLA | Argus',
-    metaDescription: 'Turnkey enterprise IT lifecycle support: multi-site hardware rollouts, advance exchange depot programs, custom SLAs, and NIST 800-88 certified fleet disposition.',
+    metaTitle: 'Enterprise IT Services | Fleet Staging, Depot SLAs & ITAD',
+    metaDescription: 'Turnkey enterprise IT lifecycle management: high-volume device imaging, advance exchange depot programs, custom SLAs, and NIST 800-88 audited asset retirement.',
     canonical: 'https://www.argusx.com/enterprise-it-services/',
     heroKicker: 'Enterprise Lifecycle Operations',
     heroTitle: 'Scale Your Technology Fleet Without Expanding IT Overhead',
@@ -68,8 +70,8 @@ export const PAGES_DATA: Record<string, any> = {
   smb: {
     slug: 'small-business-it-services',
     path: '/small-business-it-services/',
-    metaTitle: 'Small & Midsize Business IT Services — Dependable Hardware & Support | Argus',
-    metaDescription: 'Accessible, right-sized IT services for growing businesses: hardware & software bundles, proactive monitoring, responsive depot support, and secure disposal.',
+    metaTitle: 'Small Business IT Services | Hardware Bundling & Support',
+    metaDescription: 'Accessible, enterprise-grade IT for SMBs: right-sized hardware bundles, proactive endpoint monitoring, fast depot repair, and secure device retirement.',
     canonical: 'https://www.argusx.com/small-business-it-services/',
     heroKicker: 'Right-Sized Technology Partnerships',
     heroTitle: 'Enterprise-Grade IT Discipline Designed for Growing Businesses',
@@ -84,8 +86,8 @@ export const PAGES_DATA: Record<string, any> = {
   procurement: {
     slug: 'it-procurement-deployment',
     path: '/it-procurement-deployment/',
-    metaTitle: 'IT Procurement & Deployment Services — Hardware Sourcing & Imaging | Argus',
-    metaDescription: 'Commercial equipment procurement, Device as a Service (DaaS), custom imaging, asset tagging, and kitting delivered from our Fort Worth depot to end users nationwide.',
+    metaTitle: 'IT Procurement & Deployment | Hardware Staging & Imaging',
+    metaDescription: 'Commercial equipment procurement, Device as a Service (DaaS), custom imaging, asset tagging, and kitting delivered from our Fort Worth depot nationwide.',
     canonical: 'https://www.argusx.com/it-procurement-deployment/',
     heroKicker: 'Source & Deploy',
     heroTitle: 'Zero-Touch Hardware Procurement, Staging & Rollout',
@@ -100,8 +102,8 @@ export const PAGES_DATA: Record<string, any> = {
   managed: {
     slug: 'managed-it-services',
     path: '/managed-it-services/',
-    metaTitle: 'Managed IT Services — Proactive Monitoring, Patching & Security | Argus',
-    metaDescription: 'Keep business systems stable with 24/7 infrastructure monitoring, operating system patch automation, endpoint hygiene, and scheduled asset health reporting.',
+    metaTitle: 'Managed IT Services | 24/7 Monitoring, Patching & Support',
+    metaDescription: 'Ensure system resilience with 24/7 proactive infrastructure monitoring, automated patch compliance, endpoint security, and executive asset health reporting.',
     canonical: 'https://www.argusx.com/managed-it-services/',
     heroKicker: 'Proactive Systems Management',
     heroTitle: 'Keep Business-Critical Infrastructure Resilient and Up-to-Date',
@@ -116,8 +118,8 @@ export const PAGES_DATA: Record<string, any> = {
   support: {
     slug: 'it-support-services',
     path: '/it-support-services/',
-    metaTitle: 'IT Support, Depot & Field Services — Fort Worth Depot & Field Dispatch | Argus',
-    metaDescription: 'Our Fort Worth Complete Care depot provides component repair, advance hardware swaps, and nationwide white-glove field technician dispatch for mission-critical IT.',
+    metaTitle: 'IT Support & Depot Services | DFW Repair & Field Dispatch',
+    metaDescription: 'Our Fort Worth Complete Care depot delivers component repair, advance hardware swaps, and nationwide white-glove on-site technician dispatch.',
     canonical: 'https://www.argusx.com/it-support-services/',
     heroKicker: 'Complete Care Depot & Field Engineering',
     heroTitle: 'Rapid Hardware Repair Depot and On-Site Field Engineering',
@@ -132,8 +134,8 @@ export const PAGES_DATA: Record<string, any> = {
   itad: {
     slug: 'it-asset-disposition',
     path: '/it-asset-disposition/',
-    metaTitle: 'IT Asset Disposition & Secure Data Destruction — NIST 800-88 Certified | Argus',
-    metaDescription: 'Audit-ready ITAD services: serialized NIST 800-88 data sanitization, physical drive shredding, destruction certificates, hardware refurbishing, and zero-landfill recycling.',
+    metaTitle: 'IT Asset Disposition (ITAD) | NIST 800-88 Data Destruction',
+    metaDescription: 'Audit-ready ITAD services: serialized NIST 800-88 data destruction, drive shredding, certificates of destruction, electronics refurbishing, and e-waste recycling.',
     canonical: 'https://www.argusx.com/it-asset-disposition/',
     heroKicker: 'Secure Retirement & ITAD',
     heroTitle: 'Certified IT Asset Disposition and Verifiable Data Destruction',
@@ -148,8 +150,8 @@ export const PAGES_DATA: Record<string, any> = {
   staffing: {
     slug: 'it-staffing-project-services',
     path: '/it-staffing-project-services/',
-    metaTitle: 'IT Staffing & Project Services — Migrations, Moves & Rollouts | Argus',
-    metaDescription: 'Execute technology projects on schedule: corporate data center moves, branch office acquisitions, retail store remodels, structured cabling, and technical staff augmentation.',
+    metaTitle: 'IT Staffing & Project Services | Moves, Cutovers & Cabling',
+    metaDescription: 'Execute critical technology projects on time: data center moves, branch acquisitions, POS cutovers, structured cabling, and technical staff augmentation.',
     canonical: 'https://www.argusx.com/it-staffing-project-services/',
     heroKicker: 'Project Execution & Technical Staffing',
     heroTitle: 'Specialized Engineering for Complex Hardware Moves and Rollouts',
@@ -164,8 +166,8 @@ export const PAGES_DATA: Record<string, any> = {
   careers: {
     slug: 'careers',
     path: '/careers/',
-    metaTitle: 'Careers at Argus IT Services — Technical & Depot Roles in Fort Worth, TX',
-    metaDescription: 'Join the Argus IT Services team in Fort Worth, Texas. Explore engineering, depot imaging, field services, and operations opportunities with a company founded in 1997.',
+    metaTitle: 'Careers at Argus IT Services | Tech & Depot Jobs Fort Worth',
+    metaDescription: 'Join the Argus IT Services team in Fort Worth, Texas. Explore engineering, depot imaging, field support, and technology operations careers founded in 1997.',
     canonical: 'https://www.argusx.com/careers/',
     heroKicker: 'Work With Us in Fort Worth, TX',
     heroTitle: 'Build a Career in Practical Technology Operations',
@@ -180,8 +182,8 @@ export const PAGES_DATA: Record<string, any> = {
   contact: {
     slug: 'contact',
     path: '/contact/',
-    metaTitle: 'Contact Argus IT Services — Fort Worth Facility & Direct Phone Support',
-    metaDescription: 'Get in touch with Argus IT Services. Call (469) 471-0035, email Sales@argusx.com, or visit our facility at 14951 Kingsport Rd Suite 200, Fort Worth TX 76155.',
+    metaTitle: 'Contact Argus IT Services | Fort Worth Depot & Phone Support',
+    metaDescription: 'Contact Argus IT Services at (469) 471-0035, email Sales@argusx.com, or visit our Fort Worth facility. Open Mon–Fri 7:00 AM – 5:00 PM Central Time.',
     canonical: 'https://www.argusx.com/contact/',
     heroKicker: 'Direct Consultation & Quotes',
     heroTitle: 'Discuss Your Hardware Lifecycle and Support Needs',

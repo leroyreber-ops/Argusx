@@ -69,13 +69,26 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     const schemas: any[] = [
       {
         '@context': 'https://schema.org',
-        '@type': 'Organization',
+        '@type': 'LocalBusiness',
+        '@id': `${COMPANY.productionUrl}/#organization`,
         name: COMPANY.name,
         legalName: COMPANY.legalName,
         url: COMPANY.productionUrl,
+        logo: `${COMPANY.productionUrl}/assets/images/hero_it_depot_imaging_1791866053170.jpg`,
+        image: `${COMPANY.productionUrl}/assets/images/hero_it_depot_imaging_1791866053170.jpg`,
         foundingDate: `${COMPANY.foundedYear}-01-01`,
         telephone: COMPANY.phone,
         email: COMPANY.email,
+        priceRange: '$$$',
+        openingHours: 'Mo-Fr 07:00-17:00',
+        openingHoursSpecification: [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: '07:00',
+            closes: '17:00',
+          },
+        ],
         address: {
           '@type': 'PostalAddress',
           streetAddress: COMPANY.address.street,
@@ -84,6 +97,15 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
           postalCode: COMPANY.address.zip,
           addressCountry: COMPANY.address.country,
         },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 32.8351,
+          longitude: -97.0439,
+        },
+        sameAs: [
+          'https://www.linkedin.com/company/argus-it-services/',
+          'https://www.facebook.com/ArgusITServices2020',
+        ],
       },
       {
         '@context': 'https://schema.org',

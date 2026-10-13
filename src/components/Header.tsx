@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { COMPANY, NAVIGATION } from '../data/company';
 import { Link, useRouter } from '../context/RouterContext';
-import { ChevronDown, Menu, X, PhoneCall, MapPin, Search } from 'lucide-react';
+import { ChevronDown, Menu, X, PhoneCall, MapPin, Clock, Search } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const { currentPath } = useRouter();
@@ -60,6 +60,10 @@ export const Header: React.FC = () => {
               <MapPin className="w-3.5 h-3.5 text-blue-300" />
               <span>14951 Kingsport Rd Suite 200, Fort Worth TX 76155</span>
             </a>
+            <div className="hidden lg:flex items-center gap-1.5 text-blue-200">
+              <Clock className="w-3.5 h-3.5 text-blue-300" />
+              <span>{COMPANY.businessHoursShort}</span>
+            </div>
           </div>
 
           <div className="flex items-center gap-4 text-slate-200">

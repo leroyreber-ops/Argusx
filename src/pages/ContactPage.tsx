@@ -166,6 +166,26 @@ export const ContactPage: React.FC = () => {
 
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-lg bg-blue-50 text-[#213f9a] flex items-center justify-center shrink-0">
+                      <Clock className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                        Hours of Operation
+                      </div>
+                      <div className="text-sm font-semibold text-slate-900 mt-0.5">
+                        Monday through Friday
+                      </div>
+                      <div className="text-sm text-slate-700">
+                        7:00 AM – 5:00 PM Central Time (CT)
+                      </div>
+                      <p className="text-xs text-slate-500 mt-0.5">
+                        Centralized Fort Worth depot and nationwide dispatch
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-blue-50 text-[#213f9a] flex items-center justify-center shrink-0">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>

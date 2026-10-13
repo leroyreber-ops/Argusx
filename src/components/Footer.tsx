@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { COMPANY, NAVIGATION } from '../data/company';
 import { Link } from '../context/RouterContext';
-import { MapPin, Phone, Mail, ArrowUpRight, Send, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ArrowUpRight, Send, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -17,32 +17,48 @@ export const Footer: React.FC = () => {
   return (
     <footer className="relative bg-slate-950 text-slate-300 border-t border-slate-800 overflow-hidden">
       
-      {/* Visible Background Hero Image for Footer */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      {/* Background Hero Image - High Clarity & Visibility Just Like Main Page Header */}
+      <div className="absolute inset-0 z-0 pointer-events-none select-none">
         <img
-          src="/assets/images/argus_footer_hero_tech_1791870038434.jpg"
-          alt="Argus Enterprise Technology Infrastructure & Datacenter Network"
-          className="w-full h-full object-cover object-center opacity-85 brightness-100 contrast-105"
+          src="/assets/images/argus_depot_facility_footer_1791895504384.jpg"
+          alt="Argus IT Services Fort Worth Depot & Staging Operations Facility"
+          className="w-full h-full object-cover object-[center_35%] brightness-105 contrast-105"
           loading="lazy"
+          referrerPolicy="no-referrer"
         />
-        {/* Balanced gradient overlay so glowing servers and circuits shine through while keeping content crisp */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/80 to-slate-950/85" />
-        <div className="absolute inset-0 bg-[#213f9a]/15 mix-blend-overlay" />
+        {/* Directional gradient just like PageHero: clear and bright on top and right, gentle gradient to protect text */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/45 via-slate-950/55 to-slate-950/85 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-slate-950/20 sm:to-transparent pointer-events-none" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         
+        {/* Facility Location Badge & Facility Photo Caption */}
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/80 text-blue-200 border border-white/20 backdrop-blur-md shadow-md">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="font-semibold text-white">Central Technology Depot Facility</span>
+            <span className="text-slate-400">·</span>
+            <span>14951 Kingsport Rd, Fort Worth, TX</span>
+          </div>
+
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-slate-950/70 text-slate-300 border border-white/10 backdrop-blur-md text-[11px]">
+            <span className="text-cyan-400 font-mono">LIVE STAGING BENCH</span>
+            <span>· Zero-Touch Deployment Hub</span>
+          </div>
+        </div>
+
         {/* Prominent Footer Hero Call-to-Action Banner */}
-        <div className="mb-14 p-8 sm:p-10 rounded-3xl bg-gradient-to-r from-blue-950/90 via-slate-900/85 to-[#213f9a]/80 border border-blue-400/30 backdrop-blur-md shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+        <div className="mb-14 p-8 sm:p-10 rounded-3xl bg-slate-950/80 sm:bg-slate-950/75 border border-white/20 backdrop-blur-md shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           <div className="space-y-3 max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-cyan-300 text-xs font-semibold tracking-wider uppercase border border-cyan-400/30">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-600/30 text-cyan-300 text-xs font-semibold tracking-wider uppercase border border-cyan-400/40">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-              <span>Fort Worth Depot & Nationwide Logistics Hub</span>
+              <span>DFW Depot Staging & Nationwide Deployment</span>
             </div>
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight drop-shadow-sm">
               Ready to Modernize Your IT Asset Lifecycle?
             </h3>
-            <p className="text-sm sm:text-base text-blue-100/90 leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-normal">
               Speak directly with our Fort Worth engineering team for volume hardware staging, advance exchange depot buffers, on-site field engineering, or certified NIST 800-88 data destruction.
             </p>
           </div>
@@ -102,6 +118,13 @@ export const Footer: React.FC = () => {
                   <a href={`mailto:${COMPANY.email}`} className="hover:text-cyan-300 transition-colors font-medium">
                     {COMPANY.email}
                   </a>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Clock className="w-4 h-4 text-cyan-400 mt-0.5 shrink-0" />
+                  <span className="text-slate-300 text-xs leading-relaxed">
+                    <span className="text-white font-medium block">Hours of Operation:</span>
+                    {COMPANY.businessHours}
+                  </span>
                 </div>
               </div>
 

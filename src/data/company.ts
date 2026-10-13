@@ -44,6 +44,9 @@ export const COMPANY = {
     country: 'US',
   },
   productionUrl: 'https://www.argusx.com',
+  businessHours: 'Monday – Friday: 7:00 AM – 5:00 PM Central Time',
+  businessHoursShort: 'Mon – Fri: 7:00 AM – 5:00 PM CT',
+  openingHoursSchema: 'Mo-Fr 07:00-17:00',
   tagline: 'Comprehensive Technology Lifecycle & IT Infrastructure Services',
   leadership: [
     {

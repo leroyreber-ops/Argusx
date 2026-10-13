@@ -22,9 +22,9 @@ export const SitemapPage: React.FC = () => {
   return (
     <div className="bg-white">
       <SEOHead
-        title="HTML Sitemap & Complete Architecture Guide | Argus IT Services"
-        description="Comprehensive index and architectural sitemap of all Argus IT Services web pages, hardware lifecycle solutions, service categories, and depot facilities."
-        canonical="/sitemap/"
+        title="HTML Sitemap & Site Directory | Argus IT Services"
+        description="Browse the complete site architecture, service categories, hardware lifecycle solutions, and depot facilities of Argus IT Services."
+        canonical="https://www.argusx.com/sitemap/"
         breadcrumbs={[
           { name: 'Home', path: '/' },
           { name: 'Sitemap', path: '/sitemap/' },
