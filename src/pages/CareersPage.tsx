@@ -189,7 +189,7 @@ export const CareersPage: React.FC = () => {
       </section>
 
       {/* Honest Career Application / Inquiry Form */}
-      <section id="career-form" className="py-20 bg-slate-50 border-b border-slate-200">
+      <section id="career-form" className="py-20 bg-slate-50 border-b border-slate-200 scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <div className="text-xs font-bold text-[#213f9a] uppercase tracking-wider mb-2">

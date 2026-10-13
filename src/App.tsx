@@ -21,8 +21,9 @@ import { NotFoundPage } from './pages/NotFoundPage';
 const RouteRenderer: React.FC = () => {
   const { currentPath } = useRouter();
 
-  // Normalize path by stripping trailing slash for comparison
-  const normalized = currentPath.replace(/\/+$/, '') || '/';
+  // Strip query parameters and hash if present, and normalize by stripping trailing slash
+  const clean = currentPath.split('#')[0].split('?')[0];
+  const normalized = clean.replace(/\/+$/, '') || '/';
 
   switch (normalized) {
     case '/':
@@ -58,12 +59,20 @@ const RouteRenderer: React.FC = () => {
     case '/project-field-services':
       return <StaffingProjectsPage />;
     case '/careers':
+    case '/career-form':
       return <CareersPage />;
     case '/contact':
+    case '/contact-form':
+    case '/consultation':
+    case '/request-consultation':
       return <ContactPage />;
     case '/sitemap':
       return <SitemapPage />;
     default:
+      // Safety net: in case a path had a hash anchor like /#contact-form
+      if (normalized.includes('contact-form') || normalized.includes('consultation')) {
+        return <ContactPage />;
+      }
       return <NotFoundPage />;
   }
 };

@@ -99,20 +99,74 @@ export const PageHero: React.FC<PageHeroProps> = ({
 
           {/* Action CTAs */}
           <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-            <Link
-              to={primaryCtaLink}
-              className="px-7 py-3.5 text-sm font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-xl hover:shadow-blue-500/40 transition-all text-center flex items-center justify-center gap-2 group cursor-pointer border border-blue-400/40"
-            >
-              <span>{primaryCtaText}</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            {primaryCtaLink.startsWith('tel:') || primaryCtaLink.startsWith('mailto:') ? (
+              <a
+                href={primaryCtaLink}
+                className="px-7 py-3.5 text-sm font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-xl hover:shadow-blue-500/40 transition-all text-center flex items-center justify-center gap-2 group cursor-pointer border border-blue-400/40"
+              >
+                <span>{primaryCtaText}</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </a>
+            ) : primaryCtaLink.startsWith('#') ? (
+              <button
+                type="button"
+                onClick={() => {
+                  const targetId = primaryCtaLink.replace('#', '');
+                  const el = document.getElementById(targetId);
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                    if (typeof window !== 'undefined') {
+                      window.history.pushState(null, '', primaryCtaLink);
+                    }
+                  }
+                }}
+                className="px-7 py-3.5 text-sm font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-xl hover:shadow-blue-500/40 transition-all text-center flex items-center justify-center gap-2 group cursor-pointer border border-blue-400/40"
+              >
+                <span>{primaryCtaText}</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+            ) : (
+              <Link
+                to={primaryCtaLink}
+                className="px-7 py-3.5 text-sm font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-xl hover:shadow-blue-500/40 transition-all text-center flex items-center justify-center gap-2 group cursor-pointer border border-blue-400/40"
+              >
+                <span>{primaryCtaText}</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            )}
 
-            <Link
-              to={secondaryCtaLink}
-              className="px-6 py-3.5 text-sm font-semibold text-white hover:text-white bg-slate-900/80 hover:bg-slate-800 rounded-xl border border-white/20 backdrop-blur-md transition-all text-center shadow-md"
-            >
-              {secondaryCtaText}
-            </Link>
+            {secondaryCtaLink.startsWith('tel:') || secondaryCtaLink.startsWith('mailto:') || secondaryCtaLink.startsWith('http') ? (
+              <a
+                href={secondaryCtaLink}
+                className="px-6 py-3.5 text-sm font-semibold text-white hover:text-white bg-slate-900/80 hover:bg-slate-800 rounded-xl border border-white/20 backdrop-blur-md transition-all text-center shadow-md flex items-center justify-center"
+              >
+                {secondaryCtaText}
+              </a>
+            ) : secondaryCtaLink.startsWith('#') ? (
+              <button
+                type="button"
+                onClick={() => {
+                  const targetId = secondaryCtaLink.replace('#', '');
+                  const el = document.getElementById(targetId);
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                    if (typeof window !== 'undefined') {
+                      window.history.pushState(null, '', secondaryCtaLink);
+                    }
+                  }
+                }}
+                className="px-6 py-3.5 text-sm font-semibold text-white hover:text-white bg-slate-900/80 hover:bg-slate-800 rounded-xl border border-white/20 backdrop-blur-md transition-all text-center shadow-md flex items-center justify-center cursor-pointer"
+              >
+                {secondaryCtaText}
+              </button>
+            ) : (
+              <Link
+                to={secondaryCtaLink}
+                className="px-6 py-3.5 text-sm font-semibold text-white hover:text-white bg-slate-900/80 hover:bg-slate-800 rounded-xl border border-white/20 backdrop-blur-md transition-all text-center shadow-md flex items-center justify-center"
+              >
+                {secondaryCtaText}
+              </Link>
+            )}
 
             <a
               href={`tel:${COMPANY.phoneRaw}`}

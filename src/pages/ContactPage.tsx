@@ -110,7 +110,7 @@ export const ContactPage: React.FC = () => {
       />
 
       {/* Contact Section: Form & Direct Contact Cards */}
-      <section id="contact-form" className="py-20 bg-slate-50 border-b border-slate-200">
+      <section id="contact-form" className="py-20 bg-slate-50 border-b border-slate-200 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -139,7 +139,7 @@ export const ContactPage: React.FC = () => {
                         {COMPANY.phone}
                       </a>
                       <p className="text-xs text-slate-500 mt-0.5">
-                        Monday – Friday, 8:00 AM – 5:00 PM CT
+                        Monday – Friday, 7:00 AM – 5:00 PM CT
                       </p>
                     </div>
                   </div>
